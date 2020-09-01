@@ -15,8 +15,8 @@
 3. Documentation Lead - **Asho Issak**
 	
 	
-1. Team Manager - *Amina Anwar*
-2. Testing Lead - *Amina Anwar*
-3. Documentation Lead - *Amina Anwar*
+1. Team Manager - **Amina Anwar**
+2. Testing Lead - **Amina Anwar**
+3. Documentation Lead - **Amina Anwar**
 
 
