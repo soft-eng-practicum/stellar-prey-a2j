@@ -1,6 +1,6 @@
 # stellar-prey-a2j
 
-**Team:**  *🦋Asho Issak* *🌹Amina Anwar*
+**Team:**  *🦋Asho Issak* *🌹Amina Anwar* *🐕Jacob Boyce*
 
 [Repository location:](https://github.com/soft-eng-practicum/stellar-prey-a2j)
 
@@ -18,5 +18,10 @@
 1. Team Manager - **Amina Anwar**
 2. Testing Lead - **Amina Anwar**
 3. Documentation Lead - **Amina Anwar**
+
+
+1. Code Architecture/Lead Programmer - **Jacob Boyce**
+2. Data Modeler - **Jacob Boyce**
+3. Documentation Lead - **Jacob Boyce**
 
 
