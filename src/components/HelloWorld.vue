@@ -9,6 +9,7 @@
         <li>Clans</li>
         <li>Community</li>
         <li>Server</li>
+        <li>Hello world</li>
       </list>
       <list2>
         <li>Log in</li>
