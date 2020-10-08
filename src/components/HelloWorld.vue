@@ -1,32 +1,28 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="header">
+    <header>
+      {{ msg }}
+      <list>
+        <li>Home</li>
+        <li>About</li>
+        <li>Players</li>
+        <li>Clans</li>
+        <li>Community</li>
+        <li>Server</li>
+      </list>
+      <list2>
+        <li>Log in</li>
+        <li>Sign up</li>
+      </list2>
+    </header>
+  </div>
+  <img alt="Game image" src="../assets/frontimage.jpg">
+  <div class="body">
+    <header2>
+      <li2>Join a Community</li2>
+      <li2>Join a Server</li2>
+      <li2>Install</li2>
+    </header2>
   </div>
 </template>
 
@@ -41,18 +37,40 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
+header {
+  text-align: start;
+  font-size: 0.65in;
 }
 li {
   display: inline-block;
   margin: 0 10px;
 }
+li2 {
+  display: inline-block;
+  margin: 0 40px;
+  background-size: 2in;
+  background-color: #42b983;
+}
 a {
   color: #42b983;
+}
+list {
+  font-size: 0.35in;
+  margin-left: 50px;
+}
+list2 {
+  font-size: 0.4in;
+  margin-left: 50px;
+}
+img {
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+header2 {
+  text-align: center;
+  font-size: 0.7in;
+  margin-left: 5%;
 }
 </style>
