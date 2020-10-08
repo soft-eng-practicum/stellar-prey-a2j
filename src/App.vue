@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Stellar Prey"/>
+  <FrontPage msg="Stellar Prey"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FrontPage from './components/FrontPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FrontPage
   }
 }
 </script>
