@@ -20,7 +20,7 @@
   <div class="body">
     <header2>
       <li2>Join a Community</li2>
-      <li2>Join a Server</li2>
+      <li2>Join a ServerSDFsDF</li2>
       <li2>Install</li2>
     </header2>
   </div>
