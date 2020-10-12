@@ -1,25 +1,24 @@
-# stellar-prey-a2j
+# portfolio
 
-**Team:**  *🦋Asho Issak* *🌹Amina Anwar* *🐕Jacob Boyce*
+## Project setup
+```
+npm install
+```
 
-[Repository location:](https://github.com/soft-eng-practicum/stellar-prey-a2j)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-**Progress Tracking Tool**: Jira
+### Compiles and minifies for production
+```
+npm run build
+```
 
-**Communication Tool**: 💻 Discord 📲 Text MSG 
+### Lints and fixes files
+```
+npm run lint
+```
 
-**Member Roles**
-
-1. UI/UX Design - **Asho Issak**
-2. Client Liasian - **Asho Issak**
-	
-	
-1. Team Manager - **Amina Anwar**
-2. Testing Lead - **Amina Anwar**
-
-
-1. Code Architecture/Lead Programmer - **Jacob Boyce**
-2. Data Modeler - **Jacob Boyce**
-3. Documentation Lead - **Asho Issak, Amina Anwar, Jacob Boyce**
-
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
