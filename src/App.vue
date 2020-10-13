@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="imgbox">
-       <img alt="logo" src="../stellarprey.png">
+       <img alt="logo" src="./assets/stellarprey.png">
       </div>
 
          <br><br><br>
