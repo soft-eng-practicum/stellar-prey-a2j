@@ -1,14 +1,14 @@
 <template>
-  <FrontPage msg="Stellar Prey"/>
+  <About/>
 </template>
 
 <script>
-import FrontPage from './components/FrontPage.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
-    FrontPage
+    About
   }
 }
 </script>
@@ -24,5 +24,6 @@ export default {
   text-align: match-parent;
   color:aliceblue;
   background-color: black;
+  background-size:cover;
 }
 </style>
