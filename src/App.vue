@@ -20,8 +20,8 @@
          <router-link to="//server">Server</router-link>|
 
 <list2>
-       <router-link to="//server">Log in</router-link>|
-       <router-link to="//server">Sign up</router-link>|
+       <router-link to="//login">Log in</router-link>|
+       <router-link to="//signup">Sign up</router-link>|
       
 </list2>
 
