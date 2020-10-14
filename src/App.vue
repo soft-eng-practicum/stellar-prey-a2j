@@ -11,17 +11,17 @@
       
 
     <div id="nav">
-      <router-link to="/">FrontPage</router-link> &nbsp;|
+      <router-link to="/">Home</router-link> &nbsp;|
         
- <router-link to="/About">About</router-link>| 
-      <router-link to="//players">Players</router-link>|
-      <router-link to="//clans">Clans</router-link>|
-       <router-link to="//comminity">Community</router-link>|
-         <router-link to="//server">Server</router-link>|
+      <router-link to="//About">About</router-link>| 
+      <router-link to="//Players">Players</router-link>|
+      <router-link to="//Clans">Clans</router-link>|
+      <router-link to="//Comminities">Community</router-link>|
+      <router-link to="//Servers">Server</router-link>|
 
 <list2>
        <router-link to="//server">Log in</router-link>|
-       <router-link to="//server">Sign up</router-link>|
+       <router-link to="//server">Sign up</router-link>
       
 </list2>
 
@@ -32,6 +32,10 @@
 </template>
 
 <style>
+*{
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
