@@ -11,17 +11,17 @@
       
 
     <div id="nav">
-      <router-link to="/">Home</router-link> &nbsp;|
+      <router-link to="/">Home</router-link> &nbsp;
         
-      <router-link to="//About">About</router-link>| 
-      <router-link to="//Players">Players</router-link>|
-      <router-link to="//Clans">Clans</router-link>|
-      <router-link to="//Comminities">Community</router-link>|
-      <router-link to="//Servers">Server</router-link>|
+      <router-link to="//About">About</router-link>&nbsp;
+      <router-link to="//Players">Players</router-link>&nbsp;
+      <router-link to="//Clans">Clans</router-link>&nbsp;
+      <router-link to="//Comminty">Community</router-link>&nbsp;
+      <router-link to="//Servers">Server</router-link>&nbsp;
 
 <list2>
-       <router-link to="//server">Log in</router-link>|
-       <router-link to="//server">Sign up</router-link>
+       <router-link to="//login">Log in</router-link>&nbsp;
+       <router-link to="//signup">Sign up</router-link>&nbsp;
       
 </list2>
 
@@ -60,9 +60,9 @@
 #nav {
 
  /*background-color: pink; */
-float: right;
+  float: right;
   font-size: 0.25in;
-  margin-left: 30px;
+  margin-left: 20px;
   
 
 }
