@@ -6,7 +6,7 @@
     <br><br><br>
   
   
-      <img alt="Game image" src="./frontimage.jpg">
+      <img alt="Game image" src="../assets/frontimage.jpg">
 
        <header2>
       <li2>Join a Community</li2>
