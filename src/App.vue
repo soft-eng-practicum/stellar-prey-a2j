@@ -12,12 +12,11 @@
 
     <div id="nav">
       <router-link to="/">FrontPage</router-link> &nbsp;|
-        
       <router-link to="/About">About</router-link>| 
       <router-link to="//players">Players</router-link>|
       <router-link to="//clans">Clans</router-link>|
-       <router-link to="//comminity">Community</router-link>|
-         <router-link to="//server">Server</router-link>|
+      <router-link to="//comminity">Community</router-link>|
+      <router-link to="//server">Server</router-link>|
 
 <list2>
        <router-link to="//login">Log in</router-link>|
