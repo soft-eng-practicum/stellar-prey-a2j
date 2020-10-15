@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="imgbox">
-       <img alt="logo" src="../stellarprey.png">
+       <img alt="logo" src="./assets/stellarprey.png">
       </div>
 
          <br><br><br>
@@ -11,17 +11,17 @@
       
 
     <div id="nav">
-      <router-link to="/">FrontPage</router-link> &nbsp;|
+      <router-link to="/">Home</router-link> &nbsp;
         
- <router-link to="/About">About</router-link>| 
-      <router-link to="//players">Players</router-link>|
-      <router-link to="//clans">Clans</router-link>|
-       <router-link to="//comminity">Community</router-link>|
-         <router-link to="//server">Server</router-link>|
+      <router-link to="//About">About</router-link>&nbsp;
+      <router-link to="//Players">Players</router-link>&nbsp;
+      <router-link to="//Clans">Clans</router-link>&nbsp;
+      <router-link to="//Community">Community</router-link>&nbsp;
+      <router-link to="//Servers">Servers</router-link>&nbsp;
 
 <list2>
-       <router-link to="//server">Log in</router-link>|
-       <router-link to="//server">Sign up</router-link>|
+       <router-link to="//Login">Log in</router-link>&nbsp;
+       <router-link to="//signup">Sign up</router-link>&nbsp;
       
 </list2>
 
@@ -32,6 +32,10 @@
 </template>
 
 <style>
+*{
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,22 +47,20 @@
     padding:0px;
     margin:0px;
 */
-  color: white;
   background-color: black;
 
- width: 100%;
-  height: 750px;
-
-   
+  min-height: 800px;
+  width:100%;
+  height: 100%;
 
 }
 
 #nav {
 
  /*background-color: pink; */
-float: right;
+  float: right;
   font-size: 0.25in;
-  margin-left: 30px;
+  margin-left: 20px;
   
 
 }

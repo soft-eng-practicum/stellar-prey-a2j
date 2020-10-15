@@ -5,13 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5",
     "vue": "^2.6.11",
@@ -49,5 +51,18 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soft-eng-practicum/stellar-prey-a2j.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soft-eng-practicum/stellar-prey-a2j/issues"
+  },
+  "homepage": "https://github.com/soft-eng-practicum/stellar-prey-a2j#readme"
 }
