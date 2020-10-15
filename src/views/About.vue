@@ -12,10 +12,7 @@
         as life itself.
       </p>
     </div>
-    <div id="img">
-      <!--placeholder for image-->
-      <img src="../assets/logo.png">
-    </div>
+  
     
     <div id="img">
       <!--placeholder for image-->
