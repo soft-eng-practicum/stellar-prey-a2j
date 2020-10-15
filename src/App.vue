@@ -46,13 +46,16 @@
     /*height: 100%;
     padding:0px;
     margin:0px;
-*/
+
   color: white;
+
+  */
   background-color: black;
 
- width: 100%;
-  height: 750px;
-
+ /*width: 100%;
+  height: 750px; */
+  height: 100%;
+  width:100%
    
 
 }
