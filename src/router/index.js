@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import FrontPage from "../views/FrontPage.vue";
 import About from "../views/About.vue";
 import Clans from "../views/Clans.vue";
+import Community from "../views/Community.vue";
 
 Vue.use(VueRouter);
 
@@ -31,7 +32,11 @@ const routes = [
     name: "Clans",
     component: Clans
   },
-
+  {
+    path: "//Community",
+    name: "Community",
+    component: Community
+  },
 
 ];
 
