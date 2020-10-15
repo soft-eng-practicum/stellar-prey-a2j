@@ -2,7 +2,13 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import FrontPage from "../views/FrontPage.vue";
 import About from "../views/About.vue";
+<<<<<<< HEAD
 // import Login from "../views/Login.vue";
+=======
+import Clans from "../views/Clans.vue";
+import Community from "../views/Community.vue";
+import Servers from "../views/Servers.vue";
+>>>>>>> fd337b43d54c2369cd684b4ca57b21965adc1818
 
 Vue.use(VueRouter);
 
@@ -27,6 +33,7 @@ const routes = [
     component: About
   },
   {
+<<<<<<< HEAD
     path: "//Login",
     name: "Login",
     // route level code-splitting
@@ -38,6 +45,22 @@ const routes = [
  
 
 
+=======
+    path: "//Clans",
+    name: "Clans",
+    component: Clans
+  },
+  {
+    path: "//Community",
+    name: "Community",
+    component: Community
+  },
+  {
+    path: "//Servers",
+    name: "Servers",
+    component: Servers
+  },
+>>>>>>> fd337b43d54c2369cd684b4ca57b21965adc1818
 
 ];
 

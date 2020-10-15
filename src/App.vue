@@ -16,8 +16,8 @@
       <router-link to="//About">About</router-link>&nbsp;
       <router-link to="//Players">Players</router-link>&nbsp;
       <router-link to="//Clans">Clans</router-link>&nbsp;
-      <router-link to="//Comminty">Community</router-link>&nbsp;
-      <router-link to="//Servers">Server</router-link>&nbsp;
+      <router-link to="//Community">Community</router-link>&nbsp;
+      <router-link to="//Servers">Servers</router-link>&nbsp;
 
 <list2>
        <router-link to="//Login">Log in</router-link>&nbsp;
@@ -47,12 +47,10 @@
     padding:0px;
     margin:0px;
 */
-  color: white;
   background-color: black;
 
  width: 100%;
-  height: 750px;
-
+ height:100%;
    
 
 }
