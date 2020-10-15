@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import FrontPage from "../views/FrontPage.vue";
 import About from "../views/About.vue";
+import Clans from "../views/Clans.vue";
 
 Vue.use(VueRouter);
 
@@ -25,6 +26,13 @@ const routes = [
     name: "About",
     component: About
   },
+  {
+    path: "//Clans",
+    name: "Clans",
+    component: Clans
+  },
+
+
 ];
 
 const router = new VueRouter({
