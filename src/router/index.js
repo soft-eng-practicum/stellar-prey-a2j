@@ -4,6 +4,7 @@ import FrontPage from "../views/FrontPage.vue";
 import About from "../views/About.vue";
 import Clans from "../views/Clans.vue";
 import Community from "../views/Community.vue";
+import Servers from "../views/Servers.vue";
 
 Vue.use(VueRouter);
 
@@ -36,6 +37,11 @@ const routes = [
     path: "//Community",
     name: "Community",
     component: Community
+  },
+  {
+    path: "//Servers",
+    name: "Servers",
+    component: Servers
   },
 
 ];
