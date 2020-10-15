@@ -16,7 +16,7 @@
     
     <div id="img">
       <!--placeholder for image-->
-      <img src="../assets/logo.png">
+      <img src="../assets/Founder.png">
     </div>
   </div>
 </template>
@@ -46,7 +46,7 @@ width: 33.33%;
   
 }
 #img {
-  margin-top: 1in;
+  margin-top: 2in;
   float:right;
   margin-right: 300px;
 }
