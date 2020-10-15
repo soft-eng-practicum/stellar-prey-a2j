@@ -16,7 +16,7 @@
       <router-link to="//About">About</router-link>&nbsp;
       <router-link to="//Players">Players</router-link>&nbsp;
       <router-link to="//Clans">Clans</router-link>&nbsp;
-      <router-link to="//Comminty">Community</router-link>&nbsp;
+      <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Server</router-link>&nbsp;
 
 <list2>

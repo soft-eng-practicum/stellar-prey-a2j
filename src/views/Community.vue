@@ -1,5 +1,5 @@
 <template>
-  <div class="clans">
+  <div class="community">
       <!-- when searching for players
     <h1>This is a Players Page</h1> <br>
     <br>
@@ -12,7 +12,7 @@
 
 
 <div id="input">
-    <input type="text" placeholder="Search clans" name="search">
+    <input type="text" placeholder="Search community" name="search">
 <button @click="search">Searcher</button>
     </div><br><br>
     <br><br>
