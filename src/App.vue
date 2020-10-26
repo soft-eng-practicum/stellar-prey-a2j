@@ -21,7 +21,7 @@
 
 <list2>
        <router-link to="//Login">Log in</router-link>&nbsp;
-       <router-link to="//signup">Sign up</router-link>&nbsp;
+       <router-link to="//Signup">Sign up</router-link>&nbsp;
       
 </list2>
 
