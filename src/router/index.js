@@ -7,6 +7,7 @@ import Community from "../views/Community.vue";
 import Servers from "../views/Servers.vue";
 
 
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -43,7 +44,7 @@ const routes = [
     path: "//Servers",
     name: "Servers",
     component: Servers
-  },
+  }
 
 ];
 
