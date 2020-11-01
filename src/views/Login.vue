@@ -131,9 +131,4 @@ width:20%;
     display: inline-block;
 */
 }
-   
-
-
-  
-
 </style>
