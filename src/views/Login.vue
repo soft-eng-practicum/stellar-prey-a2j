@@ -1,88 +1,134 @@
-<template>
+
+  <template>
   <div class="Login">
-    <img src="../assets/frontimage.jpg" alt="Avatar" class="avatar">
+      <!-- when searching for players
+    <h1>This is a Players Page</h1> <br>
+    <br>
+    
+     <input type="text" placeholder="Search player" name="search"> 
+     -->
 
-    <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+  <!-- when searching for players 
+    <button @click="search">Searcher</button> -->
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+   
 
-        <button type="submit">Login</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+<div class="container">
 
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
+
+   <form class="contact-form" @submit.prevent="sendEmail">
+    <label>Email</label>
+    <!--<input type="text" name="user_name"> -->
+    <input type="email" name="user_email">
+
+    <label>Password</label>
+    <input type="password" name="password">
+    <button type="submit">Login</button>
+    
+  </form>
+    <!--
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    -->
+      <!--
+    <input type="text" placeholder="Search player" name="search">
+<button @click="search">Searcher</button>
+
+
+
+
+-->
   </div>
-</div>
+<div id="input">
+
+
+     <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+  
+    </div><br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+      <br><br>
+      <br><br>
+    <br><br>
+    <br><br>
+      <br><br>
+
+   <div id="lookup"></div>
+   <!--
+  <div id="lookup"></div>
+  <div id="lookup"></div>
+  -->
+
+
+  </div>
 </template>
 
-<script> 
-  <h2>Login Form</h2> 
+<script>
+export default {
+  //name: 'FrontPage',
+  //props: {
+    //msg: String
+  //}
+  data(){
+    return{
+      searcher: ''
+    };
+  },
+  methods: {
+    search(){
+      alert("search for a name");
+    }, 
+    user_email(){
+      alert('enter correct email');
+    }
+  }
+
+}
 </script>
-<style>
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+<style scoped>
+#input{
+
+	float:left;
+  display: block;
+  padding: 250px;
+right:40%;
+position:relative;  
+width:20%;
 }
 
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-.Login {
+#lookup{
+  
+   display: block;
+  padding: 50px;
+  background-color:#8B9F9B;
+  margin: 0 10px;
   text-align: center;
-  margin: 24px 0 12px 0;
-}
 
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
+  /*
+  margin-left: 5%;
+  
 
-.container {
-  padding: 16px;
-}
 
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
+  text-align: center;
+  font-size: 0.5in;
+  margin-left: 5%;
+   position:relative; 
+    background-size: 2in;
+    display: inline-block;
+*/
 }
 </style>

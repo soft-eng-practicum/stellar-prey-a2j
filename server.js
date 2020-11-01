@@ -1,28 +1,20 @@
+
+// server js
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:8081"
-};
+const port = 8000;
 
-app.use(cors(corsOptions));
-
-// parse requests of content-type - application/json
 app.use(bodyParser.json());
+app.use(cors());
+app.use(express.urlencoded({ extended: true }));
 
-// parse requests of content-type - application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
-
-// simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+app.get('/', (req, res) => {
+  res.send(`Hi! Server is listening on port ${port}`)
 });
 
-// set port, listen for requests
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-});
+// listen on the port
+app.listen(port);
