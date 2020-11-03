@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Nodes-Rest-Apis-Sequilzie-MySQL",
+  "main": "index.js",
+  "type": "module",
+  
+  
+  "scripts": {
+    "test": "echo\\Error: no test specified\\ && exit1",
+    "start": "server.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
