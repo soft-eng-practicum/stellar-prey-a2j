@@ -28,18 +28,23 @@ export default {
 
 
 <style scoped>
+
+
 img {
-  width: 100%;
+  width: 1000px;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 30px;
+  margin-left: -200px;
   
 }
 li2 {
   display: inline-block;
-  margin: 0 40px;
+  margin: 0 100px;
   background-size: 2in;
   background-color:#8B9F9B;
+  
+
 }
 a {
   color: #42b983;
