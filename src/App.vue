@@ -48,26 +48,28 @@
     margin:0px;
 */
   background-color: black;
-
-  min-height: 800px;
+  min-height: 720px;
   width:100%;
   height: 100%;
+  display: block;
 
 }
 
 #nav {
 
  /*background-color: pink; */
-  float: right;
-  font-size: 0.25in;
+  float: center;
+  font-size: 0.35in;
   margin-left: 20px;
-  
+  position:absolute;
+    top:15%;
+    left:28%;
 
 }
 
 #nav a {
   font-weight: bold;
-  color: white;
+  color:white;
   
 }
 
@@ -80,16 +82,18 @@ padding:10px;
 
 }
 #imgbox {
-  height:350pxpx;
-  width: 500pxpx;
+  height:250px;
+  width: 422px;
   float:left;
   overflow: hidden;
   /*border: solid 2px white;*/
-  margin-left: 10px;
+  margin-left: 2px;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-position: center !important;
   background-size: contain;
+  
+  
 }
 list2{
   background-color: black;
