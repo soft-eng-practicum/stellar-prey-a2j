@@ -48,6 +48,7 @@
     margin:0px;
 */
   background-color: black;
+  background-size: cover;
   min-height: 720px;
   width:100%;
   height: 100%;
