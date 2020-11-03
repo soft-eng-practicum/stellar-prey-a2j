@@ -18,14 +18,8 @@
       <router-link to="//Clans">Clans</router-link>&nbsp;
       <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Servers</router-link>&nbsp;
-
-<list2>
-       <router-link to="//Login">Log in</router-link>&nbsp;
-       <router-link to="//Signup">Sign up</router-link>&nbsp;
-      
-</list2>
-
-      
+      <router-link to="//Login">Log in</router-link>&nbsp;
+      <router-link to="//Signup">Sign up</router-link>&nbsp;
     </div>
     <router-view />
   </div>
@@ -47,11 +41,12 @@
     padding:0px;
     margin:0px;
 */
+
   background-color: black;
   min-height: 720px;
   width:100%;
   height: 100%;
-  display: block;
+  background-position:center;
 
 }
 
@@ -62,8 +57,8 @@
   font-size: 0.35in;
   margin-left: 20px;
   position:absolute;
-    top:15%;
-    left:28%;
+    top:10%;
+    left:24%;
 
 }
 
@@ -77,13 +72,16 @@
   color: #42b983;
   /*color:white;*/
 }
-mg {
+img {
+height:175px;
+width: 275px;
+float: left;
 padding:10px;
 
 }
 #imgbox {
   height:250px;
-  width: 422px;
+  width: 275px;
   float:left;
   overflow: hidden;
   /*border: solid 2px white;*/
