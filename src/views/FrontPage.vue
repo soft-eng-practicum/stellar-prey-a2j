@@ -40,9 +40,11 @@ img {
 }
 li2 {
   display: inline-block;
-  margin: 0 40px;
+  margin: 0 100px;
   background-size: 2in;
   background-color:#8B9F9B;
+  
+
 }
 a {
   color: #42b983;
