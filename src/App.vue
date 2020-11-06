@@ -19,13 +19,9 @@
       <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Servers</router-link>&nbsp;
 
-<list2>
        <router-link to="//Login">Log in</router-link>&nbsp;
        <router-link to="//Signup">Sign up</router-link>&nbsp;
-      
-</list2>
-
-      
+    
     </div>
     <router-view />
   </div>
@@ -41,13 +37,30 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
- 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+  background-color: black;
+/*
+  min-height: 800px;
+
+    /*height: 100%;
+    padding:0px;
+    margin:0px;
+*/
+
   background-color: black;
   min-height: 720px;
+
   width:100%;
   height: 100%;
-  display: block;
- 
+  background-position:center;
+
+  Background-size: cover;
+  */
 }
 
 #nav {
@@ -58,7 +71,9 @@
   margin-left: 20px;
   position:absolute;
     top:10%;
-    left:28%;
+
+    left:24%;
+
 
 }
 
@@ -72,13 +87,18 @@
   color: #42b983;
   /*color:white;*/
 }
-pmg {
+
+img {
+height:175px;
+width: 275px;
+float: left;
+
 padding:10px;
 
 }
 #imgbox {
   height:250px;
-  width: 422px;
+  width: 275px;
   float:left;
   overflow: hidden;
   /*border: solid 2px white;*/
@@ -86,6 +106,9 @@ padding:10px;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-position: center !important;
+
+
+
   background-size: contain;
   
   
