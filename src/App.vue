@@ -18,12 +18,10 @@
       <router-link to="//Clans">Clans</router-link>&nbsp;
       <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Servers</router-link>&nbsp;
+
        <router-link to="//Login">Log in</router-link>&nbsp;
        <router-link to="//Signup">Sign up</router-link>&nbsp;
-      
-
-
-      
+    
     </div>
     <router-view />
   </div>
@@ -40,7 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 
-   /*background: url(images/bg.jpg) no-repeat center center fixed; */
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,8 +48,18 @@
   background-color: black;
 /*
   min-height: 800px;
+
+    /*height: 100%;
+    padding:0px;
+    margin:0px;
+*/
+
+  background-color: black;
+  min-height: 720px;
+
   width:100%;
   height: 100%;
+  background-position:center;
 
   Background-size: cover;
   */
@@ -61,16 +68,18 @@
 #nav {
 
  /*background-color: pink; */
-  float: right;
-  font-size: 0.25in;
+  float: center;
+  font-size: 0.35in;
   margin-left: 20px;
-  
+  position:absolute;
+    top:10%;
+    left:24%;
 
 }
 
 #nav a {
   font-weight: bold;
-  color: white;
+  color:white;
   
 }
 
@@ -78,21 +87,28 @@
   color: #42b983;
   /*color:white;*/
 }
-mg {
+img {
+height:175px;
+width: 275px;
+float: left;
 padding:10px;
 
 }
 #imgbox {
-  height:350pxpx;
-  width: 500pxpx;
+  height:250px;
+  width: 275px;
   float:left;
   overflow: hidden;
   /*border: solid 2px white;*/
-  margin-left: 10px;
+  margin-left: 2px;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-position: center !important;
-  /*background-size: contain;*/
+
+
+
+  background-size: contain;
+  
   
 }
 list2{

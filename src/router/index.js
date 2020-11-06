@@ -6,9 +6,6 @@ import Clans from "../views/Clans.vue";
 import Community from "../views/Community.vue";
 import Servers from "../views/Servers.vue";
 
-
-
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -27,6 +24,26 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views//Players.vue")
   },
   {
+    path: "//About",
+    name: "About",
+    component: About
+  },
+  {
+    path: "//Clans",
+    name: "Clans",
+    component: Clans
+  },
+  {
+    path: "//Community",
+    name: "Community",
+    component: Community
+  },
+  {
+    path: "//Servers",
+    name: "Servers",
+    component: Servers
+  },
+{
     path: "//Login",
     name: "Login",
     // route level code-splitting
