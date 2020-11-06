@@ -1,5 +1,5 @@
 var express    = require("express");
-var login = require('./routes/loginroutes');
+var login = require('./routes/mySql');
 var bodyParser = require('body-parser');
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -18,4 +18,4 @@ router.get('/', function(req, res) {
 router.post('/register',login.register);
 router.post('/login',login.login)
 app.use('/api', router);
-app.listen(4000);
+app.listen(8081);
