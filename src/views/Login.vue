@@ -1,10 +1,6 @@
-
 <template>
-
 <div class="Login">
 <meta name="viewport" content="width=device-width, initial-scale=2">
-
-
 
   <form action="/action_page.php" method="post">
   <div class="imgcontainer">
@@ -34,9 +30,7 @@
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-form {
-  border: 1px solid black;
-  }
+form {border: 1px solid black;}
 
 input[type=text], input[type=password] {
   width: 100%;

@@ -5,13 +5,6 @@ import About from "../views/About.vue";
 import Clans from "../views/Clans.vue";
 import Community from "../views/Community.vue";
 import Servers from "../views/Servers.vue";
-//<<<<<<< HEAD
-//=======
-
-
-
-//>>>>>>> e8a8bc608e2e7fe9351b8eb860ba7d1b6bc70274
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -23,14 +16,10 @@ const routes = [
   {
     path: "//players",
     name: "Players",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views//Players.vue")
   },
   {
-//<<<<<<< HEAD
     path: "//About",
     name: "About",
     component: About
@@ -51,15 +40,20 @@ const routes = [
     component: Servers
   },
 {
-//=======
-// >>>>>>> e8a8bc608e2e7fe9351b8eb860ba7d1b6bc70274
+
     path: "//Login",
     name: "Login",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () =>
       import(/* webpackChunkName: "about" */ "../views//Login.vue")
+  },
+  {
+
+    path: "//Signup",
+    name: "Signup",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views//Signup.vue")
   },
   {
     path: "//About",
