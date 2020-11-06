@@ -18,8 +18,10 @@
       <router-link to="//Clans">Clans</router-link>&nbsp;
       <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Servers</router-link>&nbsp;
-      <router-link to="//Login">Log in</router-link>&nbsp;
-      <router-link to="//Signup">Sign up</router-link>&nbsp;
+
+       <router-link to="//Login">Log in</router-link>&nbsp;
+       <router-link to="//Signup">Sign up</router-link>&nbsp;
+    
     </div>
     <router-view />
   </div>
@@ -35,7 +37,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* this is the color of the font on the page */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+  background-color: black;
+/*
+  min-height: 800px;
 
     /*height: 100%;
     padding:0px;
@@ -43,9 +53,13 @@
 */
 
   background-color: black;
+  min-height: 720px;
+
   width:100%;
   height: 100%;
 
+  Background-size: cover;
+  
 }
 
 #nav {
@@ -56,7 +70,9 @@
   margin-left: 20px;
   position:absolute;
     top:10%;
+
     left:24%;
+
 
 }
 
@@ -70,10 +86,12 @@
   color: #42b983;
   /*color:white;*/
 }
+
 img {
 height:175px;
 width: 275px;
 float: left;
+
 padding:10px;
 
 }
@@ -87,6 +105,9 @@ padding:10px;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-position: center !important;
+
+
+
   background-size: contain;
   
   
