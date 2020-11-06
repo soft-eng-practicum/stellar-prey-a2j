@@ -62,7 +62,7 @@
   background-position:center;
 
   Background-size: cover;
-  */
+  
 }
 
 #nav {
