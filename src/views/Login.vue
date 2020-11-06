@@ -1,32 +1,13 @@
+<template>
+<div class="Login">
+<meta name="viewport" content="width=device-width, initial-scale=2">
 
-  <template>
-  <div class="Login">
-      <!-- when searching for players
-    <h1>This is a Players Page</h1> <br>
-    <br>
-    
-     <input type="text" placeholder="Search player" name="search"> 
-     -->
+  <form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://i.imgur.com/dGo8DOk.jpg" alt="Avatar" class="avatar">
+  </div>
 
-  <!-- when searching for players 
-    <button @click="search">Searcher</button> -->
-
-   
-
-<div class="container">
-
-
-   <form class="contact-form" @submit.prevent="sendEmail">
-    <label>Email</label>
-    <!--<input type="text" name="user_name"> -->
-    <input type="email" name="user_email">
-
-    <label>Password</label>
-    <input type="password" name="password">
-    <button type="submit">Login</button>
-    
-  </form>
-    <!--
+  <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -37,98 +18,81 @@
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
-    -->
-      <!--
-    <input type="text" placeholder="Search player" name="search">
-<button @click="search">Searcher</button>
-
-
-
-
--->
   </div>
-<div id="input">
 
-
-     <div class="container" style="background-color:#f1f1f1">
+  <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
-
-  
-    </div><br><br>
-    <br><br>
-    <br><br>
-    <br><br>
-      <br><br>
-      <br><br>
-    <br><br>
-    <br><br>
-      <br><br>
-
-   <div id="lookup"></div>
-   <!--
-  <div id="lookup"></div>
-  <div id="lookup"></div>
-  -->
-
-
+</form>
   </div>
 </template>
 
-<script>
-export default {
-  //name: 'FrontPage',
-  //props: {
-    //msg: String
-  //}
-  data(){
-    return{
-      searcher: ''
-    };
-  },
-  methods: {
-    search(){
-      alert("search for a name");
-    }, 
-    user_email(){
-      alert('enter correct email');
-    }
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 1px solid black;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 85px 0 3px 0;
+}
+
+img.avatar {
+  width: 18%;
+  border-radius: 50%;
+  margin-right: 360px;
+}
+
+.container {
+  padding: 5px;
+  background: wheat;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  margin-right: 1250px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
   }
+  .cancelbtn {
+     width: 100%;
+     margin-right: 100px;
 
-}
-</script>
-
-<style scoped>
-#input{
-
-	float:left;
-  display: block;
-  padding: 250px;
-right:40%;
-position:relative;  
-width:20%;
-}
-
-#lookup{
-  
-   display: block;
-  padding: 50px;
-  background-color:#8B9F9B;
-  margin: 0 10px;
-  text-align: center;
-
-  /*
-  margin-left: 5%;
-  
-
-
-  text-align: center;
-  font-size: 0.5in;
-  margin-left: 5%;
-   position:relative; 
-    background-size: 2in;
-    display: inline-block;
-*/
+  }
 }
 </style>
