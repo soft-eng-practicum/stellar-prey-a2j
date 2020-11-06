@@ -18,12 +18,10 @@
       <router-link to="//Clans">Clans</router-link>&nbsp;
       <router-link to="//Community">Community</router-link>&nbsp;
       <router-link to="//Servers">Servers</router-link>&nbsp;
-
-<list2>
        <router-link to="//Login">Log in</router-link>&nbsp;
        <router-link to="//Signup">Sign up</router-link>&nbsp;
       
-</list2>
+
 
       
     </div>
@@ -41,18 +39,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* this is the color of the font on the page */
 
-    /*height: 100%;
-    padding:0px;
-    margin:0px;
-*/
+   /*background: url(images/bg.jpg) no-repeat center center fixed; */
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
   background-color: black;
-
+/*
   min-height: 800px;
   width:100%;
   height: 100%;
 
+  Background-size: cover;
+  */
 }
 
 #nav {
@@ -89,7 +92,8 @@ padding:10px;
   margin-top: 0px;
   background-repeat: no-repeat;
   background-position: center !important;
-  background-size: contain;
+  /*background-size: contain;*/
+  
 }
 list2{
   background-color: black;
