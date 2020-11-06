@@ -41,18 +41,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* this is the color of the font on the page */
-
-    /*height: 100%;
-    padding:0px;
-    margin:0px;
-*/
+ 
   background-color: black;
   min-height: 720px;
   width:100%;
   height: 100%;
   display: block;
-
+ 
 }
 
 #nav {
@@ -62,7 +57,7 @@
   font-size: 0.35in;
   margin-left: 20px;
   position:absolute;
-    top:15%;
+    top:10%;
     left:28%;
 
 }
@@ -77,7 +72,7 @@
   color: #42b983;
   /*color:white;*/
 }
-mg {
+pmg {
 padding:10px;
 
 }
