@@ -49,38 +49,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: black;
- /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-
-  background-image:image('./assets/purple-orange.jpg');*/
-
-/*
-  min-height: 800px;
-
-    /*height: 100%;
-    padding:0px;
-    margin:0px;
-*/
-
-
-  background-color: black;
-  background-size: cover;
-  min-height: 720px;
-
-  width:100%;
-  height: 100%;
-
-  Background-size: cover;
-
-
- /* min-height: 80vh;
-*/
-  width:100%;
-  height: 100%;
   
 }
 
