@@ -21,4 +21,6 @@ app.post('/user/all', function(req, res){
     Controller.Create
   });
 app.use('/api', router);
+
 app.listen(8080);
+
