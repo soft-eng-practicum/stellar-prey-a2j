@@ -31,10 +31,12 @@
 
 <script>
 export default {
+
   name: 'players',
   props: {
     message: String
   },
+
   data(){
     return{
       searcher: ''
@@ -50,13 +52,15 @@ export default {
 </script>
 
 <style scoped>
+form {border: 1px solid black;}
 #input{
 
 	float:left;
   display: block;
-  padding: 250px;
-right:40%;
+  margin-top: 20vh;
+right: 40vh;
 position:relative;  
+
 width:20%;
 
 }

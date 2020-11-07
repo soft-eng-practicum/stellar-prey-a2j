@@ -1,9 +1,10 @@
 <template>
+  <div id="background" :style="{'background-image':'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700444878.jpg)'}">
   <div id="app">
-
+    </div>
     <div id="imgbox">
-       <img alt="logo" src="./assets/stellarprey.png">
-      </div>
+       <img alt="logo" src="./assets/stellarprey_logo_01a.png">
+    </div>
 
          <br><br><br>
 
@@ -22,7 +23,11 @@
       <router-link to="//Login">Log in</router-link>&nbsp;
       <router-link to="//Signup">Sign up</router-link>&nbsp;
 
+
    
+
+      <a href="https://forum.grangerhub.com/" target="_blank" rel="noopener" id="forum">Forum</a>
+
     </div>
     <router-view />
   </div>
@@ -38,11 +43,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: black;
+ /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+  background-image:image('./assets/purple-orange.jpg');*/
+
 /*
   min-height: 800px;
 
@@ -50,6 +64,7 @@
     padding:0px;
     margin:0px;
 */
+
 
   background-color: black;
   background-size: cover;
@@ -60,19 +75,37 @@
 
   Background-size: cover;
 
+
+ /* min-height: 80vh;
+*/
+  width:100%;
+  height: 100%;
+  
+}
+
+#background{
+  min-height: 100vh;
+  min-width: 100vh;
+
 }
 
 #nav {
 
- /*background-color: pink; */
-  float: center;
-  font-size: 0.35in;
+  /*float: center;*/
+  font-size: 0.3in;
   margin-left: 20px;
   position:absolute;
     top:10%;
 
+
     left:24%;
 
+
+
+
+    left:26%;
+
+  display:inline;
 
 }
 
@@ -87,17 +120,24 @@
   /*color:white;*/
 }
 
+
+
+#forum{
+  margin-left: 3vw;
+}
+
+
 img {
-height:175px;
-width: 275px;
+height:150px;
+width: 400px;
 float: left;
 
 padding:10px;
 
 }
 #imgbox {
-  height:250px;
-  width: 275px;
+  height:150px;
+  width: 400px;
   float:left;
   overflow: hidden;
   /*border: solid 2px white;*/

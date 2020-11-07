@@ -35,7 +35,7 @@ img {
   height: 400px;
   margin-top: 20px;
   margin-bottom: 30px;
-  margin-left: -200px;
+  margin-left: 250px;
   
 }
 li2 {
@@ -53,6 +53,5 @@ a {
 header2 {
   text-align: center;
   font-size: 0.5in;
-  margin-left: 5%;
 }
 </style>
