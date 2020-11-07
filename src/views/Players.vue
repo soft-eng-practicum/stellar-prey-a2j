@@ -60,12 +60,7 @@ form {border: 1px solid black;}
   margin-top: 30vh;
 right: 40vh;
 position:relative;  
-<<<<<<< HEAD
-
 width:20%;
-
-=======
->>>>>>> f6f64f9d63c0819e615c3b881e14f7ae4c868cd6
 }
 
 #lookup{
