@@ -59,7 +59,7 @@ export default {
 
 	float:left;
   display: block;
-  padding: 250px;
+  
 right:40%;
 position:relative;  
 width:20%;
