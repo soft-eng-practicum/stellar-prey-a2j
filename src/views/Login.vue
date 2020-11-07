@@ -4,9 +4,9 @@
 
   <form action="/action_page.php" method="post">
   <div class="imgcontainer">
-    <img src="https://i.imgur.com/dGo8DOk.jpg" alt="Avatar" class="avatar">
+    <img src="../assets/avatar.png" alt="Avatar" class="avatar">
   </div>
-
+  <br><br><br><br><br><br><br><br><br>
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -20,17 +20,16 @@
     </label>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="container">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"><a href="#">Forgot password?</a></span>
   </div>
 </form>
   </div>
 </template>
 
-<style>
+<style scoped>
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 1px solid black;}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -67,6 +66,7 @@ button:hover {
 }
 
 img.avatar {
+  float:center;
   width: 18%;
   border-radius: 50%;
   margin-right: 360px;
@@ -74,13 +74,18 @@ img.avatar {
 
 .container {
   padding: 5px;
-  background: wheat;
+  color:white;
 }
 
 span.psw {
   float: right;
   padding-top: 16px;
   margin-right: 1250px;
+}
+
+label{
+  color:white;
+  
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -95,4 +100,4 @@ span.psw {
 
   }
 }
-</style>
+</style>*/

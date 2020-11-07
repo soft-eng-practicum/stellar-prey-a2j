@@ -18,4 +18,4 @@ router.get('/', function(req, res) {
 router.post('/register',login.register);
 router.post('/login',login.login)
 app.use('/api', router);
-app.listen(8081);
+app.listen(3306);
