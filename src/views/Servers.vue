@@ -57,12 +57,11 @@ export default {
 <style scoped>
 #input{
 
-	float:left;
+  float:left;
   display: block;
-  padding: 250px;
-right:40%;
-position:relative;  
-width:20%;
+  margin-top: 30vh;
+right: 40vh;
+position:relative;
 }
 
 #lookup{
