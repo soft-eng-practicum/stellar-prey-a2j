@@ -9,13 +9,42 @@
         species choose to take? It’s a universal tale of survival vs death, and of 
         order vs chaos, as old as life itself.
     </p>
-    <v-content>
-      <v-layout wrap fill-height fill-width>
-        <v-flex wrap>
-          <router-view></router-view>
-        </v-flex>
-      </v-layout>
-    </v-content>
+    <h2>News</h2>
+    <div style="border:3px solid black;width:40vw;height:50vh;overflow:scroll;" id="box">
+      <div id="news">
+        <li>Example News</li>
+        <li>Example News</li>
+
+        <li>Example News</li>
+        <li>Example News</li>
+      </div>
+      <div id="news">
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+      </div>
+      <div id="news">
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+      </div>
+      <div id="news">
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+        <li>Example News</li>
+      </div>
+      <div id="news">
+        <li>Example News</li>
+        <li>Example News</li>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,4 +58,24 @@ p {
   width: 700px;
 }
 
+#box{
+  float:right;
+  margin-right:5vw;
+  margin-top:-42vh;
+}
+
+h2{
+  font-size: 0.5in;
+  margin-top:-49vh;
+  float:right;
+  margin-right: 38vw;
+}
+
+#news{
+  border: 1px solid black;
+}
+
+li{
+  max-width: 40vw;
+}
 </style>

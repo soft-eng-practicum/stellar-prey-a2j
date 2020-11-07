@@ -39,24 +39,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
- /* -webkit-background-size: cover;
+ -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
-  background-image:image('./assets/purple-orange.jpg');*/
-/*
-  min-height: 800px;
-
-    /*height: 100%;
-    padding:0px;
-    margin:0px;
-*/
- /* min-height: 80vh;
-*/
-  width:100%;
-  height: 100%;
   
 }
 
