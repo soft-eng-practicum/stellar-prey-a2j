@@ -69,11 +69,13 @@ img.avatar {
   float:center;
   width: 18%;
   border-radius: 50%;
-  margin-left: 25vh;
+  margin-left: 13vw;
 }
 
 .container {
   padding: 5px;
+  margin-left:40vh;
+  width:60%;
   color:white;
 }
 

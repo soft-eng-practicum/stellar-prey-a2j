@@ -1,6 +1,5 @@
 <template>
-
-  <div id="background" :style="{'background-image':'url(' + require('./assets/orange-purple.jpg') + ')'}">
+  <div id="background" :style="{'background-image':'url('+require('./assets/orange-purple.jpg')+')'}">
   <div id="app">
     </div>
     <div id="imgbox">
@@ -86,8 +85,7 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
-  /*color:white;*/
+  color: #26bcff;
 }
 
 #forum{
@@ -118,8 +116,5 @@ padding:10px;
   background-size: contain;
   
   
-}
-list2{
-  background-color: black;
 }
 </style>

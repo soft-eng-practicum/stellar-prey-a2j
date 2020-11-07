@@ -72,14 +72,14 @@ button:hover {
 .cancelbtn {
   background-color: #f44336;
   float: left;
-  width: 10%;
+  width: 15%;
   }
 
 
 /* Float cancel and signup buttons and add an equal width */
 .signupbtn {
   float: center;
-  width: 10%;
+  width: 15%;
   margin-left: 5px;
 }
 
@@ -110,7 +110,8 @@ p{
   }
 }
 .color{
-  margin: 200px 0px 29px 0px;
+  width:50%;
+  margin: 200px 0px 29px 25vw;
    
 }
 </style>
