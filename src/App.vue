@@ -38,14 +38,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
   background-color: black;
 /*
   min-height: 800px;
@@ -61,7 +57,6 @@
 
   width:100%;
   height: 100%;
-  background-position:center;
 
   Background-size: cover;
 
@@ -75,7 +70,9 @@
   margin-left: 20px;
   position:absolute;
     top:10%;
+
     left:24%;
+
 
 }
 
@@ -89,10 +86,12 @@
   color: #42b983;
   /*color:white;*/
 }
+
 img {
 height:175px;
 width: 275px;
 float: left;
+
 padding:10px;
 
 }
