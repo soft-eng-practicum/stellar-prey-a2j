@@ -70,6 +70,7 @@ img.avatar {
   width: 18%;
   border-radius: 50%;
   margin-right: 360px;
+   position : relative;
 }
 
 .container {
