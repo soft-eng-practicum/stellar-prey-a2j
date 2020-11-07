@@ -56,10 +56,9 @@ form {border: 1px solid black;}
 
 	float:left;
   display: block;
-  margin-top: 20vh;
+  margin-top: 30vh;
 right: 40vh;
 position:relative;  
-/*width:20%;*/
 }
 
 #lookup{

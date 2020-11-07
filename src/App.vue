@@ -1,5 +1,6 @@
 <template>
-  <div id="background" :style="{'background-image':'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700444878.jpg)'}">
+
+  <div id="background" :style="{'background-image':'url(' + require('./assets/orange-purple.jpg') + ')'}">
   <div id="app">
     </div>
     <div id="imgbox">

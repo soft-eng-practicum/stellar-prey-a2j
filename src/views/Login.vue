@@ -61,7 +61,7 @@ button:hover {
 }
 
 .imgcontainer {
-  text-align: center;
+  float: center;
   margin: 85px 0 3px 0;
 }
 
@@ -69,7 +69,7 @@ img.avatar {
   float:center;
   width: 18%;
   border-radius: 50%;
-  margin-right: 360px;
+  margin-left: 25vh;
 }
 
 .container {
