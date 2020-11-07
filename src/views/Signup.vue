@@ -29,7 +29,7 @@
 </template>
 
 
-<style>
+<style scoped>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
 
@@ -61,7 +61,6 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
   opacity: 0.9;
 }
 
@@ -80,7 +79,8 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .signupbtn {
   float: center;
-  width: 50%;
+  width: 10%;
+  margin-left: 5px;
 }
 
 /* Add padding to container elements */
@@ -95,6 +95,13 @@ button:hover {
   display: table;
 }
 
+label{
+  color:white;
+}
+p{
+  color:white;  
+}
+
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -103,8 +110,7 @@ button:hover {
   }
 }
 .color{
-  background-color:wheat;
-  margin: 300px 0px 29px 0px;
+  margin: 200px 0px 29px 0px;
    
 }
 </style>
