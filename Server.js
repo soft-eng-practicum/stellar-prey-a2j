@@ -21,11 +21,6 @@ app.post('/user/all', function(req, res){
     Controller.Create
   });
 app.use('/api', router);
-<<<<<<< HEAD
-app.listen(3306);
-=======
-
 app.listen(8080);
-//
 
->>>>>>> master
+

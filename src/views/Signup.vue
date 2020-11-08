@@ -30,12 +30,6 @@
 <style scoped>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
-<<<<<<< HEAD
-
- /*Full-width input fields */
-=======
-/* Full-width input fields */
->>>>>>> master
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -100,13 +94,7 @@ p{
   }
 }
 .color{
-<<<<<<< HEAD
-  margin: 200px 0px 29px 0px;
-
-=======
   width:50%;
   margin: 200px 0px 29px 25vw;
-   
->>>>>>> master
 }
 </style>
