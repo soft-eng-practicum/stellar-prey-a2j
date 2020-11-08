@@ -17,5 +17,15 @@ router.get('/', function(req, res) {
 //route to handle user registration
 router.post('/register',login.register);
 router.post('/login',login.login)
+app.post('/user/all', function(req, res){
+    Controller.Create
+  });
 app.use('/api', router);
+<<<<<<< HEAD
 app.listen(3306);
+=======
+
+app.listen(8080);
+//
+
+>>>>>>> master

@@ -59,17 +59,16 @@ export default {
 
 	float:left;
   display: block;
-  
-right:40%;
+  margin-top: 30vh;
+right: 40vh;
 position:relative;  
-width:20%;
 }
 
 #lookup{
   
    display: block;
   padding: 50px;
-  background-color:#8B9F9B;
+  background-color:#26bcff;
   margin: 0 10px;
   text-align: center;
 

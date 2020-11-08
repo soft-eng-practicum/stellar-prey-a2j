@@ -1,19 +1,17 @@
 <template>
   <div class="players">
-      <!-- when searching for players
-    <h1>This is a Players Page</h1> <br>
-    <br>
-    
-     <input type="text" placeholder="Search player" name="search"> 
-     -->
-
-  <!-- when searching for players 
-    <button @click="search">Searcher</button> -->
 
 
 <div id="input">
-    <input type="text" placeholder="Search player" name="search">
+   <!-- <input type="text" placeholder="Search player" name="search">
+   -->
+<input v-model="text" placeholder="search palyer">
+<!--<p>Message is: {{ message }}</p> -->
 <button @click="search">Searcher</button>
+
+
+
+
     </div><br><br>
     <br><br>
     <br><br>
@@ -25,10 +23,6 @@
       <br><br>
 
    <div id="lookup"></div>
-   <!--
-  <div id="lookup"></div>
-  <div id="lookup"></div>
-  -->
 
 
   </div>
@@ -36,6 +30,12 @@
 
 <script>
 export default {
+
+  name: 'players',
+  props: {
+    message: String
+  },
+
   data(){
     return{
       searcher: ''
@@ -56,32 +56,19 @@ form {border: 1px solid black;}
 
 	float:left;
   display: block;
-  margin-top: 20vh;
+  margin-top: 30vh;
 right: 40vh;
 position:relative;  
-/*width:20%;*/
+width:20%;
 }
 
 #lookup{
   
    display: block;
   padding: 50px;
-  background-color:#8B9F9B;
+  background-color:#26bcff;
   margin: 0 10px;
   text-align: center;
-
-  /*
-  margin-left: 5%;
-  
-
-
-  text-align: center;
-  font-size: 0.5in;
-  margin-left: 5%;
-   position:relative; 
-    background-size: 2in;
-    display: inline-block;
-*/
 }
    
 

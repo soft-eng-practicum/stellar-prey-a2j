@@ -42,12 +42,12 @@ li2 {
   display: inline-block;
   margin: 0 100px;
   background-size: 2in;
-  background-color:#8B9F9B;
+  background-color:#26bcff;
   
 
 }
 a {
-  color: #42b983;
+  color: #26bcff;
 }
 
 header2 {

@@ -69,7 +69,7 @@ width:20%;
   
    display: block;
   padding: 50px;
-  background-color:#8B9F9B;
+  background-color:#26bcff;
   margin: 0 10px;
   text-align: center;
 
