@@ -23,3 +23,29 @@
 3. Documentation Lead - **Asho Issak, Amina Anwar, Jacob Boyce**
 
 
+**Installation**
+
+
+
+
+Use the following commands to install Node.js and Vue.js
+
+
+clone the repo
+git clone https://github.com/soft-eng-practicum/stellar-prey-a2j.git
+change directory
+cd https://github.com/soft-eng-practicum/stellar-prey-a2j.git
+install the repo with npm
+
+
+**Node.js installaion guide**
+
+npm install
+
+
+**Vue.js installion guide**
+
+ npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+
