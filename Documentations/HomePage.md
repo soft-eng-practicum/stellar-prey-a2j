@@ -1,3 +1,3 @@
 **Home Page**
 
-![Logo](Documentations/Home.png)
+![Home page](Documentations/Home.png)
