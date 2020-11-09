@@ -1,16 +1,6 @@
 <template>
   <div class="clans">
-      <!-- when searching for players
-    <h1>This is a Players Page</h1> <br>
-    <br>
     
-     <input type="text" placeholder="Search player" name="search"> 
-     -->
-
-  <!-- when searching for players 
-    <button @click="search">Searcher</button> -->
-
-
 <div id="input">
     <input type="text" placeholder="Search clans" name="search">
 <button @click="search">Searcher</button>
@@ -24,6 +14,7 @@
     <br><br>
       <br><br>
 
+<<<<<<< HEAD
    <div>
 
       <ul>
@@ -36,6 +27,12 @@
         </li>
       </ul>
     </div>
+=======
+   <div id="lookup"></div>
+ 
+
+
+>>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
   </div>
 </template>
 

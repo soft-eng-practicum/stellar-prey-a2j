@@ -23,7 +23,11 @@
       <router-link to="//Login">Log in</router-link>&nbsp;
       <router-link to="//Signup">Sign up</router-link>&nbsp;
 
+
+   
+
       <a href="https://forum.grangerhub.com/" target="_blank" rel="noopener" id="forum">Forum</a>
+
     </div>
     <router-view />
   </div>
@@ -50,6 +54,7 @@
 #background{
   min-height: 100vh;
   min-width: 100vh;
+
 }
 
 #nav {
@@ -60,9 +65,16 @@
   position:absolute;
     top:10%;
 
+
+    left:24%;
+
+
+
+
     left:26%;
 
   display:inline;
+
 }
 
 #nav a {
@@ -75,9 +87,12 @@
   color: #26bcff;
 }
 
+
+
 #forum{
   margin-left: 3vw;
 }
+
 
 img {
 height:150px;
