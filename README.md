@@ -31,6 +31,9 @@
 
 **Progress Tracking Tool**: Jira
 
+
+*Use the following commands to install Node.js and Vue.js*
+
 **Communication Tool**: 💻 Discord 📲 Text MSG 
 
 **Member Roles**
@@ -48,8 +51,9 @@
 3. Documentation Lead - **Asho Issak, Amina Anwar, Jacob Boyce**
 
 
+
 Developer Installation
-======================
+
 Use the following commands to install Node.js and Vue.js
 
 clone the repo

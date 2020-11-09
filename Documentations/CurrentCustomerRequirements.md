@@ -7,4 +7,4 @@
 5.Connect database to the site
 
 
-![Logo](Documentations/stellarprey_logo_01a.PNG)
+![Logo](Documentations/Stellarprey.png)
