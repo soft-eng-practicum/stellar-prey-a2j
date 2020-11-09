@@ -43,6 +43,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat:repeat;
   
 }
 
@@ -103,4 +104,5 @@ padding:10px;
   
   
 }
+
 </style>

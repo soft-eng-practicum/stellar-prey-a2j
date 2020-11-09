@@ -1,26 +1,18 @@
 var mysql = require('mysql');
 
-var connection = mysql.createConnection({
+var con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "2562William!"/*"Princessfairy97@"*/,
-    database: 'Stellar'
+    password: "",
+    database: "Stellar"
   });
 
 
-  connection.connect(function(err) {
+ /* con.connect(function(err) {
     if (err) 
-        throw err;
-    console.log("Connected!");
-  });
-  module.exports = connection;
+      console.log("Not Connected!");
+    else
+      console.log("Connected!");
+  });*/
+  module.exports = con;
 
-  connection.query('SELECT * FROM user', (err,rows) => {
-    if(err) throw err;
-  
-    console.log('Data received from Db:');
-    console.log(rows);
-    rows.forEach( (row) => {
-      console.log(`${row.name} lives in ${row.email}`);
-    });
-  });
