@@ -21,13 +21,36 @@
   </div>
 
   <div class="container">
-    <button type="button" class="cancelbtn">Cancel</button>
+    <button type="button" class="cancelbtn" v-on:click="buttonclear()">Cancel</button>
     <span class="psw"><a href="#">Forgot password?</a></span>
   </div>
 </form>
   </div>
 </template>
 
+<script>
+export default {
+  data(){
+    return{
+    
+    };
+  },
+  methods: {
+    search(){
+      alert("search for a name");
+    },
+    buttonclear(){
+      let btnClear = document.querySelector('button');
+      let inputs = document.querySelectorAll('input');
+ 
+      btnClear.addEventListener('click', () => {
+        inputs.forEach(input =>  input.value = '');
+      }); 
+    }
+  }
+
+}
+</script>
 <style scoped>
 body {font-family: Arial, Helvetica, sans-serif;}
 
