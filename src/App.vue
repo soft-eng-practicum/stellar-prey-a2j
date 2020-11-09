@@ -55,6 +55,27 @@
   min-height: 100vh;
   min-width: 100vh;
 
+
+  background-color: black;
+/*
+  min-height: 800px;
+
+    /*height: 100%;
+    padding:0px;
+    margin:0px;
+*/
+
+  background-color: black;
+  min-height: 720px;
+
+  width:100%;
+  height: 100%;
+  background-position:center;
+
+  Background-size: cover;
+  
+
+
 }
 
 #nav {

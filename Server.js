@@ -23,6 +23,7 @@ app.post('/user/all', function(req, res){
 app.use('/api', router);
 app.listen(8081);
 
+
 /*var express = require('express');
 var app = express();
 
@@ -55,4 +56,5 @@ con.connect(function(err){
         console.log(result);
     });
 });*/
+
 
