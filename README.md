@@ -23,6 +23,7 @@
 3. Documentation Lead - **Asho Issak, Amina Anwar, Jacob Boyce**
 
 
+<<<<<<< HEAD
 Developer Installation
 ======================
 1. Clone the master branch of this repository:
@@ -53,3 +54,31 @@ npm run serve
 https://localhost:8080/
 ```
    in your browser.
+=======
+**Installation**
+
+
+
+
+Use the following commands to install Node.js and Vue.js
+
+
+clone the repo
+git clone https://github.com/soft-eng-practicum/stellar-prey-a2j.git
+change directory
+cd https://github.com/soft-eng-practicum/stellar-prey-a2j.git
+install the repo with npm
+
+
+**Node.js installaion guide**
+
+npm install
+
+
+**Vue.js installion guide**
+
+ npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+
+>>>>>>> 0990f531f299a904969f95513e4a92bcb6d6a406
