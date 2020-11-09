@@ -28,7 +28,7 @@
 
 
 
-Use the following commands to install Node.js and Vue.js
+*Use the following commands to install Node.js and Vue.js*
 
 
 clone the repo
