@@ -23,4 +23,3 @@ app.post('/user/all', function(req, res){
 app.use('/api', router);
 
 app.listen(8080);
-

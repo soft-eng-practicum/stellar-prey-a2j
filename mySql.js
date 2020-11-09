@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
     password: "dareen123"/*"Princessfairy97@"*/
 
     /*password: "2562William!"/*"Princessfairy97@"*/,
-    database: 'Stellar'
+    database: 'Stellar-prey'
 
   });
 
