@@ -6,7 +6,7 @@
   <div class="imgcontainer">
     <img src="../assets/avatar.png" alt="Avatar" class="avatar">
   </div>
-  <br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -67,20 +67,23 @@ button:hover {
 
 img.avatar {
   float:center;
-  width: 18%;
+  width: 10%;
+  height: 10%;
   border-radius: 50%;
-  margin-left: 25vh;
+  margin-left: 18vw;
 }
 
 .container {
   padding: 5px;
+  margin-left:25vw;
+  width:50%;
   color:white;
 }
 
 span.psw {
   float: right;
   padding-top: 16px;
-  margin-right: 1250px;
+  margin-right: 125px;
 }
 
 label{
