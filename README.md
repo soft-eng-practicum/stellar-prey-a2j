@@ -23,3 +23,33 @@
 3. Documentation Lead - **Asho Issak, Amina Anwar, Jacob Boyce**
 
 
+Developer Installation
+======================
+1. Clone the master branch of this repository:
+```
+git clone https://github.com/soft-eng-practicum/stellar-prey-a2j.git 
+```
+2. Inside the repositroy location install the following:
+```
+npm install
+```
+```
+npm install -g @vue/cli
+```
+3. To access the code, enter:
+```
+code .
+```
+
+
+Running the Webserver
+=====================
+1. Type:
+```
+npm run serve
+```
+2. To visit the local-hosted page, go to
+```
+https://localhost:8080/
+```
+   in your browser.
