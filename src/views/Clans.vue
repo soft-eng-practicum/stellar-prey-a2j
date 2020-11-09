@@ -1,16 +1,6 @@
 <template>
   <div class="clans">
-      <!-- when searching for players
-    <h1>This is a Players Page</h1> <br>
-    <br>
     
-     <input type="text" placeholder="Search player" name="search"> 
-     -->
-
-  <!-- when searching for players 
-    <button @click="search">Searcher</button> -->
-
-
 <div id="input">
     <input type="text" placeholder="Search clans" name="search">
 <button @click="search">Searcher</button>
@@ -25,10 +15,7 @@
       <br><br>
 
    <div id="lookup"></div>
-   <!--
-  <div id="lookup"></div>
-  <div id="lookup"></div>
-  -->
+ 
 
 
   </div>
@@ -57,19 +44,18 @@ export default {
 <style scoped>
 #input{
 
-	float:left;
+  float:left;
   display: block;
-  padding: 250px;
-right:40%;
-position:relative;  
-width:20%;
+  margin-top: 30vh;
+right: 40vh;
+position:relative;
 }
 
 #lookup{
   
    display: block;
   padding: 50px;
-  background-color:#8B9F9B;
+  background-color:#26bcff;
   margin: 0 10px;
   text-align: center;
 
