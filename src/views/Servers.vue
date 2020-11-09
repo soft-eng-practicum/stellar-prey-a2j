@@ -24,13 +24,17 @@
     <br><br>
       <br><br>
 
-   <div id="lookup"></div>
-   <!--
-  <div id="lookup"></div>
-  <div id="lookup"></div>
-  -->
-
-
+   <div>
+      <ul>
+        <li id="lookup" v-for='servers in servers' :key='servers.id'>
+          <ul2>
+            <li2>{{servers.id}}</li2>
+            <li3>{{servers.name}}</li3>
+            <li4>{{servers.admin}}</li4>
+          </ul2>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -42,7 +46,30 @@ export default {
   //}
   data(){
     return{
-      searcher: ''
+      searcher: '',
+
+      servers:[
+        {
+          id: '1',
+          name: 'server',
+          admin: 'user4',
+        },
+        {
+          id: '2',
+          name: 'server2',
+          admin: 'user3'
+        },
+        {
+          id: '3',
+          name: 'server3',
+          admin: 'user2',
+        },
+        {
+          id: '4',
+          name: 'server4',
+          admin: 'user'
+        }
+      ]
     };
   },
   methods: {
@@ -70,8 +97,10 @@ width:20%;
    display: block;
   padding: 50px;
   background-color:#26bcff;
-  margin: 0 10px;
+  width:88vw;
   text-align: center;
+  color:white;
+  margin-bottom: 3vh;
 
   /*
   margin-left: 5%;
@@ -87,8 +116,18 @@ width:20%;
 */
 }
    
-
-
+ul2{
+  font-size:5vh;
+}   
+li2{
+  float:left;
+}
+li3{
+  float:center;
+}
+li4{
+  float:right;
+}
   
 
 </style>
