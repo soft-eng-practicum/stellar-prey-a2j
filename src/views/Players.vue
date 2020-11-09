@@ -8,15 +8,8 @@
 <input v-model="text" placeholder="search palyer">
 <!--<p>Message is: {{ message }}</p> -->
 <button @click="search">Searcher</button>
-<<<<<<< HEAD
-</div><br><br>
-=======
-
-
-
-
     </div><br><br>
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
+
     <br><br>
     <br><br>
     <br><br>
@@ -25,7 +18,6 @@
     <br><br>
     <br><br>
       <br><br>
-<<<<<<< HEAD
     <div>
       
     </div>
@@ -40,27 +32,11 @@
         </li>
       </ul>
     </div>
-=======
-
-   <div id="lookup"></div>
-
-
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
   </div>
 </template>
 
 <script>
 export default {
-<<<<<<< HEAD
-  
-=======
-
-  name: 'players',
-  props: {
-    message: String
-  },
-
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
   data(){
     return{
       searcher: '',
@@ -136,7 +112,6 @@ width:20%;
   background-color:#26bcff;
   width:88vw;
   text-align: center;
-<<<<<<< HEAD
   color:white;
   margin-bottom: 3vh;
 
@@ -152,8 +127,6 @@ width:20%;
     background-size: 2in;
     display: inline-block;
 */
-=======
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
 }
    
 ul2{

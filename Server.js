@@ -21,7 +21,6 @@ app.post('/user/all', function(req, res){
     Controller.Create
   });
 app.use('/api', router);
-<<<<<<< HEAD
 app.listen(8081);
 
 /*var express = require('express');
@@ -56,8 +55,4 @@ con.connect(function(err){
         console.log(result);
     });
 });*/
-=======
 
-app.listen(8080);
-
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb

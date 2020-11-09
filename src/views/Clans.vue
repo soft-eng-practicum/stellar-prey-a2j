@@ -14,7 +14,6 @@
     <br><br>
       <br><br>
 
-<<<<<<< HEAD
    <div>
 
       <ul>
@@ -27,12 +26,6 @@
         </li>
       </ul>
     </div>
-=======
-   <div id="lookup"></div>
- 
-
-
->>>>>>> 799d3548f936b2dbb2e36e92c072467e71c1fffb
   </div>
 </template>
 
