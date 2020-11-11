@@ -102,7 +102,6 @@ form {border: 1px solid black;}
   margin-top: 30vh;
 right: 40vh;
 position:relative;  
-width:20%;
 }
 
 #lookup{

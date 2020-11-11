@@ -1,5 +1,5 @@
 <template>
-  <div id="background" :style="{'background-image':'url('+require('./assets/orange-purple.jpg')+')'}">
+  <div id="background" style=background-repeat:repeat-y>
   <div id="app">
     </div>
     <div id="imgbox">
@@ -33,6 +33,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  
+}
+</script>
+
 <style>
 *{
   margin: 0;
@@ -47,16 +53,16 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat:repeat;
   
 }
 
 #background{
+  background-image:url('./assets/orange-purple.jpg');
+  
   min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100vw;
 
-
-  background-color: black;
+   
 /*
   min-height: 800px;
 
@@ -64,12 +70,6 @@
     padding:0px;
     margin:0px;
 */
-
-  background-color: black;
-  min-height: 720px;
-
-  width:100%;
-  height: 100%;
   background-position:center;
 
   Background-size: cover;
