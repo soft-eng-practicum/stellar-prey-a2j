@@ -1,3 +1,6 @@
+//Server handling and testing for Sql connection
+
+//defining app as well as its uses
 var express    = require("express");
 var login = require('./mySql.js');
 var bodyParser = require('body-parser');
@@ -9,6 +12,8 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
+
+//defining router as well as its uses
 var router = express.Router();
 // test route
 router.get('/', function(req, res) {
@@ -21,6 +26,7 @@ app.post('/user/all', function(req, res){
     Controller.Create
   });
 app.use('/api', router);
+//listening on test port
 app.listen(8081);
 
 

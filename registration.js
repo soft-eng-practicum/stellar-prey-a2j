@@ -1,3 +1,4 @@
+//Main file for requesting registration data from the user on the signup page
 exports.register = async function(req,res){
     const password = req.body.password;
     const encryptedPassword = await bcrypt.hash(password, saltRounds)

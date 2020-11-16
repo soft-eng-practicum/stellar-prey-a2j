@@ -1,26 +1,28 @@
-//unfinished
+//unfinished - currently being tested
+//Main file meant to contain functionalities for querying data and inserting data
 
-
+//establish sql connection
 var mysql = require('mysql'); 
-      var con = mysql.createConnection({  
-        host: "localhost",
-        user: "root",
-        password: "",
-        database: "Stellar"
-      });        
+  var con = mysql.createConnection({  
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "Stellar"
+});        
 
-      var users = con.query('SELECT * FROM user', (err,rows) => {
-      if(err) throw err;
-      else{
-      var array = [];
-      rows.forEach( (row) => {
-        array.push(row);
-      });
-      console.log(rows);
-      }
-      });
+//query sql data
+var users = con.query('SELECT * FROM user', (err,rows) => {
+  if(err) throw err;
+  else{
+    var array = [];
+    rows.forEach( (row) => {
+      array.push(row);
+    });
+    console.log(rows);
+  }
+});
       
-      console.log(users);
+console.log(users);
 
 /*
 var sql = require("mssql");
@@ -73,8 +75,6 @@ getAllRecords(config).then(function(value) {
      /*var getAllRecord = function getAllRecord()
       {
         return new Promise(function(resolve, reject) {
-        // The Promise constructor should catch any errors thrown on
-        // this tick. Alternately, try/catch and reject(err) on catch.
 
           con.query("SELECT * FROM user", function (err, rows, fields) {
             // Call reject on error states,
@@ -107,13 +107,12 @@ function stuff() {
 console.log(stuff());
 */
 //getAllRecord().then(function(rows) {
-    // now you have your rows, you can see if there are <20 of them
     //console.log(rows);
     //return "normal";
    /* var array = [];
     Promise.all(rows)
     .then(rows => {
-    //results is a array of the resolved promises
+    //results is an array of the resolved promises
     rows.forEach( (row) => {
       array.push(row);
     });
@@ -151,13 +150,10 @@ function getColour(data, callback)
 
 }
 
-//call Fn for db query with callback
 getinfo("yourname",4, function(err,data){
         if (err) {
-            // error handling code goes here
             console.log("ERROR : ",err);            
         } else {            
-            // code to execute on data retrieval
             console.log("result from db is : ",data);   
         }    
 
@@ -174,7 +170,7 @@ function get_info(data, cb){
                 if(cb)return cb(results[0]);
                 user = results;
                 //console.log(user); 
-                return user; // Scope is larger than function
+                return user;
     })
 }
 var array = '';
@@ -204,34 +200,3 @@ console.log(foo());*/
     //return array;
   });
 console.log(users);*/
-/*var users = (req, res) => {
-  const title = req.query.title;
-  var condition = title ? { title: { [Op.like]: `%${user}%` } } : null;
-
-  Tutorial.findAll({ where: condition })
-    .then(data => {
-      res.send(data);
-    })
-    .catch(err => {
-      res.status(500).send({
-        message:
-          err.message || "Some error occurred while retrieving tutorials."
-      });
-    });
-};*/
-//var users = (con) => {
-/*
-var user = {
-    url: 'http://localhost:3000/rows/'
-};
-
-fetch(user)
-  .then((res) => {
-    if(res.ok) {
-      return res.json();
-    }
-  })
-  .catch(console.log);
-*/
-//module.exports = users;
-

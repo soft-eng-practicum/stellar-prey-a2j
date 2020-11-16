@@ -1,3 +1,6 @@
+//Main router file
+
+//import necessary files to router
 import Vue from "vue";
 import VueRouter from "vue-router";
 import FrontPage from "../views/FrontPage.vue";
@@ -7,8 +10,11 @@ import Community from "../views/Community.vue";
 import Servers from "../views/Servers.vue";
 //import controller from "../controller/controller.js";
 
+//activate router
 Vue.use(VueRouter);
 
+/*defines the routes for each router. ex: host.com/routename
+  as well as where each route dras its information (which file)*/
 const routes = [
   {
     path: "/",
@@ -41,8 +47,7 @@ const routes = [
     name: "Servers",
     component: Servers
   },
-{
-
+  {
     path: "//Login",
     name: "Login",
 
@@ -50,7 +55,6 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views//Login.vue")
   },
   {
-
     path: "//Signup",
     name: "Signup",
 
@@ -80,10 +84,12 @@ const routes = [
 
 ];
 
+//router settings
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes
 });
 
+//exports router
 export default router;

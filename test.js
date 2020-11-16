@@ -1,23 +1,25 @@
+//File used for testing mysql connection code
+
 var mysql = require('mysql'); 
 var con = mysql.createConnection({  
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "Stellar"
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "Stellar"
 });        
 
 
 var user_id = '';
 function get_info(data, cb){
-          var sql = "SELECT id from user"
-          con.query(sql, function(err, results){
-                if (err){ 
-                  throw err;
-                }
-                if(cb)return cb(results[0]);
-                user_id = results[0];
-                console.log(user_id);  // Scope is larger than function
-    })
+  var sql = "SELECT id from user"
+  con.query(sql, function(err, results){
+    if (err){ 
+      throw err;
+    }
+    if(cb)return cb(results[0]);
+    user1 = results[0];
+    console.log(user1); 
+  })
 }
 
 /*
@@ -28,25 +30,23 @@ function get_info(data, callback){
     con.query(sql, function(err, results){
           if (err) throw err;
 
-          //console.log(results); // good
-          stuff_i_want = results; // Scope is larger than function
+          //console.log(results);
+          stuff_i_want = results;
           if(callback) return callback(results);
   })
 }
 */
 
-//usage
-
+/*
 var stuff_i_want = '';
 
 get_info(function(result){
   stuff_i_want = result;
   console.log(stuff_i_want);
-  //rest of your code goes in here
 });
-//console.log(get_info);
+console.log(get_info);
 stuff_i_want = get_info;
-console.log(stuff_i_want);
+console.log(stuff_i_want);*/
 /*var user = con.query('Select * from user', function(err, result, fields){
     if(err) throw err;
     console.log(result);
@@ -85,7 +85,6 @@ function getmydata(callback) {
     id=results[0];
     name=results[1];
     email=results[2];
-    console.log(invoices);
     })
   .catch(err => {})
     .then(() => {
@@ -93,51 +92,4 @@ function getmydata(callback) {
     })
     return(wewant1);
 });
-
-console.log("Result " + user);
-
-var position = {
-    current: {
-      coordinates: '2408,1822',
-      name: 'start',
-      premiumPoints: 0,
-      points: 0,
-      backward: "0,0"
-    },
-    some: {
-      coordinates: '2409,1822',
-      name: 'Some Start',
-      premiumPoints: 0,
-      points: 0,
-      backward: "0,0"
-    },
-     more: {
-      coordinates: '2400,1822',
-      name: 'more Start',
-      premiumPoints: 0,
-      points: 0,
-      backward: "0,0"
-    }
-  };*/
-  
- /* function searchObj(obj, query) {
-    var data ='';
-    for (var property in obj) {
-      if (obj.hasOwnProperty(property)) {
-        if (typeof obj[property] === "object") {
-         data = searchObj(obj[property], query);       
-          if(data !='') return data; 
-        }
-        else {
-          if (obj[property] === query) {         
-            return  obj["name"];               
-          }
-        }
-      }
-    } 
-    
-    return data;
-  }
-  
-  var data = searchObj(position, "2400,1822")
-  console.log("Result : " +data)*/
+*/

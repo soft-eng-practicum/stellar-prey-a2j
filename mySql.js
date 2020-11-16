@@ -1,3 +1,4 @@
+//Main file for testing MySql connection
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
@@ -6,8 +7,7 @@ var con = mysql.createConnection({
     password: "",
     database: "Stellar"
 
-  });
-
+});
 
  /* con.connect(function(err) {
     if (err) 
@@ -18,13 +18,12 @@ var con = mysql.createConnection({
   });*/
   //module.exports = con;
 
-
-  con.query('SELECT * FROM user', (err,rows) => {
-    if(err) throw err;
-  
-    console.log('Data received from Db:');
-    console.log(rows);
-    rows.forEach( (row) => {
-      console.log(`${row.name} lives in ${row.email}`);
-    });
+//test query that returns info to console
+con.query('SELECT * FROM user', (err,rows) => {
+  if(err) throw err;
+  console.log('Data received from Db:');
+  console.log(rows);
+  rows.forEach( (row) => {
+    console.log(`${row.name} lives in ${row.email}`);
   });
+});

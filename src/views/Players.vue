@@ -1,33 +1,21 @@
-<template>
-  <div class="players">
-
-
-<div id="input">
-   <!-- <input type="text" placeholder="Search player" name="search">
-   -->
-<input v-model="text" placeholder="search palyer">
-<!--<p>Message is: {{ message }}</p> -->
-<button @click="search">Searcher</button>
-    </div><br><br>
-
-    <br><br>
-    <br><br>
-    <br><br>
-      <br><br>
-      <br><br>
-    <br><br>
-    <br><br>
-      <br><br>
-    <div>
-      
+<template><!--template where webpage component layout is defined-->
+  <div class="players"><!--defines players div to display player info-->
+    <div id="input"><!--defines input div to display an input box for searching for users-->
+      <input v-model="text" placeholder="search player"><!--input box to search for users-->
+      <button @click="search">Searcher</button><!--the button for search functionality-->
     </div>
-    <div>
-      <ul>
-        <li id="lookup" v-for='users in users' :key='users.id'>
-          <ul2>
-            <li2>{{users.id}}</li2>
-            <li3>{{users.name}}</li3>
-            <li4>{{users.email}}</li4>
+    <br><br><br><br><!-- breaks for spacing-->
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br>
+    <div><!--div to hold users list-->
+      <ul><!--displays box around users in list functionality-->
+        <li id="lookup" v-for='users in users' :key='users.id'><!--for loop to display as many users as possible-->
+          <ul2><!--defines list of user info in each box.-->
+            <li2>{{users.id}}</li2><!--defines user id number-->
+            <li3>{{users.name}}</li3><!--defines user name-->
+            <li4>{{users.email}}</li4><!--defines user email-->
           </ul2>
         </li>
       </ul>
@@ -35,12 +23,15 @@
   </div>
 </template>
 
+<!--script for functions and data to be displayed-->
 <script>
 export default {
+  /*data to be displayed*/
   data(){
     return{
-      searcher: '',
+      searcher: '',/*search data to be displayed*/
 
+      /*user data array to be displayed*/
       users:[
         {
           id: '1',
@@ -65,11 +56,15 @@ export default {
       ]
     };
   },
+  /*functions and methods to be used/displayed*/
   methods: {
+    /*search method to be used*/
     search(){
       alert("search for a name");
     },
+    /*method intended to pull data from mySql server*/
     list(){
+      /*creates connection to mysql*/
       var mysql = require('mysql'); 
       var con = mysql.createConnection({  
         host: "localhost",
@@ -78,69 +73,70 @@ export default {
         database: "Stellar"
       });        
 
+      /*queries data from database*/ 
       var users = con.query('SELECT * FROM user', (err,rows) => {
-      if(err) throw err;
-      var array = [];
-      rows.forEach( (row) => {
-        array.push(row);
-      });
-      console.log(array);
+        if(err) throw err;
+        var array = [];
+        rows.forEach( (row) => {
+          array.push(row);
+        });
+        console.log(array);
       });
       
+      /*returns data*/
       return users;
     }
   }
 }
 </script>
 
+<!--style settings for webpage component-->
 <style scoped>
-form {border: 1px solid black;}
+/*formatting style code for input, line 4*/
 #input{
-
+  /*positioning an display style*/
 	float:left;
   display: block;
   margin-top: 30vh;
-right: 40vh;
-position:relative;  
+  right: 40vh;
+  position:relative;  
 }
 
+/*formatting style code for lookup, line 14*/
 #lookup{
-  
-   display: block;
+  /*display size and style*/
+  display: block;
   padding: 50px;
-  background-color:#26bcff;
   width:88vw;
-  text-align: center;
+  /*text and background color*/
+  background-color:#26bcff;
   color:white;
-  margin-bottom: 3vh;
-
-  /*
-  margin-left: 5%;
-  
-
-
+  /*text and box positioning*/
   text-align: center;
-  font-size: 0.5in;
-  margin-left: 5%;
-   position:relative; 
-    background-size: 2in;
-    display: inline-block;
-*/
+  margin-bottom: 3vh;
 }
    
+/*formatting style code for ul2, line 15*/
 ul2{
+  /*overall font size*/
   font-size:5vh;
-}   
+}
+
+/*formatting style code for li2, line 16*/
 li2{
+  /*positioning*/
   float:left;
 }
+
+/*formatting style code for li3, line 17*/
 li3{
+  /*positioning*/
   float:center;
 }
+
+/*formatting style code for li4, line 18*/
 li4{
+  /*positioning*/
   float:right;
 }
-
-  
-
 </style>

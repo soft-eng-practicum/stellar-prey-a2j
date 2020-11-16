@@ -1,3 +1,5 @@
+//Main file for handling user login on the login page
+//looks up user-entered info from login page to ensure credential match before a successful login is made
 exports.login = async function(req,res){
     var email= req.body.email;
     var password = req.body.password;
